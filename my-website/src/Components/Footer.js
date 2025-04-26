@@ -6,8 +6,8 @@ import {SiLeetcode} from "react-icons/si"
 const Footer = () => {
   return (
     <footer>
-      <h4>Developed by Avinash Pauskar</h4>
-      <h4>Copyright &copy; 2024 AP</h4>
+      <h4>Developed by Aryan Salaria</h4>
+      <h4>Copyright &copy; 2025 AS</h4>
       <div className='footerLinks'>
         <a href="https://github.com/avinash-p05" target='_blank'><FaGithub/></a>
         <a href="https://www.linkedin.com/in/avinash-pauskar/" target='_blank'><FaLinkedin/></a>

@@ -8,8 +8,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     FindingMyLostGithub : "https://github.com/avinash-p05/Lost_and_Found.git",
     TindogWebsite : "https://devanshsahni.github.io/tindog/",
 
-    AnnaSevaDesc : "Crafted a mobile app for efficient food redistribution between Restaurants and NGOs. Implemented a role-based login system using Kotlin and XML. Utilized MongoDB for data storage.",
-    AnnaSevaGithub : "https://github.com/avinash-p05/AnnaSeva.git",
+    YumzyDesc: "Yumzy is a dynamic food ordering website built using PHP. The platform provides an easy-to-use interface for customers to browse and order food from local restaurants. It integrates a seamless payment system and user-friendly features to enhance the overall experience. Administrators can manage menu items, track orders, and update restaurant information in real-time.",
+    YumzyGithub : "https://github.com/Aryan-747/FoodOrderingPHP",
     RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
 
     OutrageDesc:"Outrage is a modern weather-checking website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It allows users to search for real-time weather updates of any city across the world. The platform fetches live weather data from external APIs and displays it in a clean, responsive, and user-friendly interface. With features like temperature, humidity, wind speed, and weather condition forecasts, Outrage offers a seamless and interactive experience for users who want quick and accurate weather information.",   
