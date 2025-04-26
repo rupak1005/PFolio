@@ -28,7 +28,7 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>Introduction</b></h1>
             <p>
-            <p>My name is <b>Aryan Salaria</b>, and I come from Belagavi, Karnataka.<br/><br/>
+            <p>My name is <b>Aryan Salaria</b>, and I come from Phagwara, Punjab.<br/><br/>
 
                 I am currently pursuing my Bachelor's degree in <b>Computer Science and Engineering</b> at <b>Lovely Professional University</b>, where I have achieved a <b>CGPA of 7.72</b>. My academic journey has been focused on building a strong foundation in core computer science concepts and applying them through practical, real-world projects.<br/><br/>
 

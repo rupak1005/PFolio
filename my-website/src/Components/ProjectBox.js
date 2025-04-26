@@ -4,8 +4,8 @@ import {FaGithub} from "react-icons/fa";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    FindingMyLostDesc : "Developed an Android application for reporting and finding lost items within the college campus. Utilized Java and XML for development and implemented Firebase for backend support.",
-    FindingMyLostGithub : "https://github.com/avinash-p05/Lost_and_Found.git",
+    YouTubeCloneDesc: "The YouTube Clone is a video streaming platform developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The app allows users to upload, view, and interact with videos in a user-friendly interface. Users can browse through categories, like, comment, and subscribe to channels, mimicking the core features of YouTube. The backend is powered by Node.js and Express.js, handling user authentication, video uploads, and database interactions through MongoDB.",
+    YouTubeCloneGithub : "https://github.com/avinash-p05/Lost_and_Found.git",
     TindogWebsite : "https://devanshsahni.github.io/tindog/",
 
     YumzyDesc: "Yumzy is a dynamic food ordering website built using PHP. The platform provides an easy-to-use interface for customers to browse and order food from local restaurants. It integrates a seamless payment system and user-friendly features to enhance the overall experience. Administrators can manage menu items, track orders, and update restaurant information in real-time.",
@@ -16,8 +16,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     OutrageGithub:"https://github.com/Aryan-747/WeatherCheck",
     NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
     
-    QuizAppDesc:"An innovative Quiz app enabling the users to choose the correct answer from 4 different options and the final score of the questions answered correctly and wrongly will be calculated.",
-    QuizGithub:"https://github.com/avinash-p05?tab=repositories",
+    QuizAppDesc: "The Quiz App is an interactive platform developed using Laravel, where users can participate in various quiz categories. The app presents multiple-choice questions with four options, and users are required to select the correct answer. Upon completion of the quiz, the app calculates the user's score based on the number of correct and incorrect answers. The application also provides real-time feedback, allowing users to see which answers were correct or wrong, and offers an engaging way to track progress over time.",
+    QuizAppGithub:"https://github.com/Aryan-747/QuizApplicationLaravel",
     WigglesWebsite:"https://wiggles.vercel.app/",
   }
 
@@ -29,21 +29,16 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   return (
     <div className='projectBox'> 
         <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
-        <div>
-            <br />
-            <h3>{projectName}</h3>
-            <br />
-            {desc[projectName + 'Desc']}
-            <br />
-
+        <div className='projectText'>
+            <h3>{projectName}</h3>   {/* The project name heading */}
+            <p>{desc[projectName + 'Desc']}</p>  {/* Description */}
             <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
-
-          
         </div>
     </div>
-  )
+)
+
 }
 
 export default  ProjectBox

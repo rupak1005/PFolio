@@ -533,65 +533,140 @@ b{
 
 /* Project */
 
-.projectHeading{
-  text-align: center;
-  padding: 75px 0;
+/* Project Section Heading */
+
+/* My Projects Heading */
+.projectHeading {
+  font-size: 36px;
+  color: #19f5af;
   letter-spacing: 0.4px;
-  font-size: 42px;
-  margin-top: 50px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  text-align: center; /* Center the heading */
 }
 
-.project{
+.projectHeading b {
+  font-weight: 600;
+}
+
+
+/* Add this to the body or the .HomePage class */
+body {
+  padding-top: 100px; /* Adjust this based on the height of the navbar */
+}
+
+/* Projects Container */
+.project {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 25px 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px 5%; /* Keep the margin for bottom spacing */
 }
 
-.projectBox{
-  width: 350px;
+
+.projectBox {
+  display: flex;
+  flex-direction: row; /* Align image and text horizontally */
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%; /* Take up 90% of the container width */
+  max-width: 1200px; /* Max width for larger screens */
   border: 3px solid #19f5af;
-  border-radius: 5px;
-  text-align: center;
-  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
   letter-spacing: 0.5px;
   font-size: 18px;
   line-height: 22px;
-  
-  margin: 0px 25px 50px 25px;
-  transition: 0.5s;
-}
-.projectBox:hover{
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px 0 #19f5af;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
 }
 
-.projectPhoto{
-  display: block;
-  width: 100%;
-  margin: 20px 0px;
+.projectBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.achievePhoto{
-  display: block;
-  width: 50%;
-  margin: 20px 0px;
+.projectPhoto {
+  width: 200px; /* Limit the image size */
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px; /* Space between the image and text */
 }
 
-.projectbtn{
-  font-size: 20px;
+.projectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 220px); /* Take up the remaining space */
+}
+
+.projectText h3 {
+  font-weight: bold;
+  color: #19f5af;   
+  font-size: 24px;   
+  letter-spacing: 0.5px; 
+  margin: 0;          
+  margin-bottom: 20px; /* Add this to increase space below the heading */
+}
+
+
+
+
+.projectbtn {
+  font-size: 16px;
   display: inline-flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 40%;
-  margin: 25px 3% 0;
+  justify-content: center;
+  width: 60%; /* Button width */
+  margin: 20px 0;
+  padding: 10px;
   border-radius: 5px;
   background-color: #19f5af;
   color: #1c1c1c;
-  height: 30px;
-  cursor:pointer;
+  height: 35px;
+  cursor: pointer;
   text-decoration: none;
   border-style: none;
+}
+
+@media(max-width: 900px) {
+  .projectBox {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .projectPhoto {
+    width: 150px; /* Resize image on smaller screens */
+  }
+
+  .projectbtn {
+    width: 80%; /* Adjust button width */
+  }
+}
+
+@media(max-width: 500px) {
+  .projectBox {
+    flex-direction: column; /* Stack image and text vertically on very small screens */
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .projectPhoto {
+    width: 100%; /* Make image full width on very small screens */
+    margin-bottom: 15px;
+  }
+
+  .projectText {
+    width: 100%; /* Take up full width */
+  }
+
+  .projectbtn {
+    width: 80%; /* Adjust button width for smaller screens */
+  }
 }
 
 
@@ -704,6 +779,20 @@ footer h4{
 .achieveBox:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px 0 #19f5af;
+}
+
+.Logo {
+  font-family: 'Dancing Script', cursive; /* Apply the cursive font */
+  font-size: 36px; /* Adjust the size */
+  font-weight: 600; /* Adjust the weight */
+  color: #333; /* Adjust the text color */
+  cursor: pointer; /* Add a pointer cursor for interactivity */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+}
+
+.Logo:hover {
+  color: #ff5722; /* Change color on hover */
+  transform: scale(1.1); /* Slightly scale the logo on hover */
 }
 
 

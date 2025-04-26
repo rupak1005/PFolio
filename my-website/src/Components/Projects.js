@@ -1,9 +1,9 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
-import LostFound from '../images/LostFound.png'
+import YouTubeClone from '../images/YouTubeClone.png'
 import Yumzy from '../images/Yumzy.png';
 import Outrage from '../images/Outrage.png';
-import Quiz from '../images/Quiz.png'
+import QuizApp from '../images/Quiz.png'
 
 const Projects = () => {
   return (
@@ -12,8 +12,8 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={Outrage} projectName="Outrage" />
         <ProjectBox projectPhoto={Yumzy} projectName="Yumzy" />
-        <ProjectBox projectPhoto={LostFound} projectName="FindingMyLost" />
-        <ProjectBox projectPhoto={Quiz} projectName="QuizApp" />
+        <ProjectBox projectPhoto={YouTubeClone} projectName="YouTubeClone" />
+        <ProjectBox projectPhoto={QuizApp} projectName="QuizApp" />
       </div>
 
     </div>
