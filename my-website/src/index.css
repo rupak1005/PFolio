@@ -684,18 +684,25 @@ body {
   pointer-events: none;
 }
 
-.downloadCV{
-  cursor:pointer;
+.downloadCV {
+  display: inline-flex;       /* <-- important */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
+  cursor: pointer;
   margin: 25px 0px;
   width: 200px;
-  height: 40px;
-  background-color:#19f5af;
+  height: 50px;
+  background-color: #19f5af;
   color: #1e1e1e;
   text-decoration: none;
   border-radius: 5px;
-  border-style: none; 
+  border: none;
   transition: all 0.5s;
+  font-size: 16px; /* optional, just for matching */
 }
+
 
 .downloadCV:hover{
   transition: all 0.5s;
