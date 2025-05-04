@@ -12,7 +12,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>Aryan Salaria</b></h1>
+          <h1>I'm <b>Aryan Salaria</b></h1>
           <Typed/>   
         </div>
 
@@ -39,7 +39,9 @@ const Home = () => {
 
             </p>
         </div>
-          <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+          <div style={{display:"flex",justifyContent:"center",alignItems:"center" 
+          ,height:"100vh"}}>
+            
               <Tilt>
                   <img className='Avatar' src={Avatar} alt="" />
               </Tilt>
