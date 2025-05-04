@@ -39,7 +39,7 @@ const Home = () => {
 
             </p>
         </div>
-          <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+          <div style={{display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",width:"100%",height:"100%",borderBlockColor:"black",borderBlockWidth:"2px",borderStyle:"solid"}}>
               <Tilt>
                   <img className='Avatar' src={Avatar} alt="" />
               </Tilt>

@@ -51,7 +51,7 @@ const Nav = () => {
   return (
     <nav className={`Navbar ${hideNavbar ? 'hidden' : ''}`}>
      <h1 title='Reload' onClick={() => window.location.reload(true)} className='Logo'>
-        Aryan Salaria
+        PORTFOLIO
      </h1>
 
       <div className='Hamburger' onClick={showMenu}>

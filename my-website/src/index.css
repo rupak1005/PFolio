@@ -789,7 +789,7 @@ footer h4{
 }
 
 .Logo {
-  font-family: 'Dancing Script', cursive; /* Apply the cursive font */
+  font-family: 'Dancing Script'; /* Apply the cursive font */
   font-size: 36px; /* Adjust the size */
   font-weight: 600; /* Adjust the weight */
   color: #333; /* Adjust the text color */
