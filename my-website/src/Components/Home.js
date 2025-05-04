@@ -12,7 +12,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>Aryan Salaria</b></h1>
+          <h1>I'm <b>Aryan Salaria</b></h1>
           <Typed/>   
         </div>
 
