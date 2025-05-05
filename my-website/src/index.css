@@ -90,7 +90,7 @@ b{
 
 .Navbar.hidden {
   transform: translateY(-100%); /* Slide navbar up */
-}
+ } 
 
 .Navbar .Logo {
   font-size: 32px;
@@ -100,10 +100,10 @@ b{
   text-align: center;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
-  text-shadow: 0 0 5px #19f5af, 0 0 8px #19f5af; /* Glowing effect */
+  /* text-shadow: 0 0 5px #19f5af, 0 0 8px #19f5af; Glowing effect */
   font-family: 'Raleway', sans-serif; /* Apply the cursive font */
   font-weight: 600; /* Adjust the weight */
-  color: #333; /* Adjust the text color */
+  color: #19f5af; /* Adjust the text color */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
   text-decoration: none; /* Remove underline */ 
 }
